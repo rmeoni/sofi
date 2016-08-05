@@ -13,3 +13,102 @@
  *= require_tree .
  *= require_self
  */
+
+.main-nav {
+	background-color: #E8004A;
+	color:#fff;
+	z-index: 1000;
+	width: 100%;
+}
+
+#bs-over .nav {
+	list-style-type: none;
+	display: inline-block;
+	margin-top: 30px;
+	margin-right: 10px;
+}
+
+#bs-over .nav li {
+	display: inline-block;
+	padding: 5px;
+}
+
+#bs-over .main-nav img {
+	display: inline-block;
+}
+
+#bs-over #logo {
+	margin-left: 15px;
+	margin-top: 5px;
+}
+
+/*prefooter*/
+
+.pre-footer {
+	height:85px;
+	background-color:#332C29;
+	text-align:center;
+	color:#fff;
+}
+
+.pre-footer ul {
+	list-style-type: none;
+	margin-top:20px;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+.pre-footer li {
+	display:inline-block;
+	padding:5px;
+}
+
+.pre-footer i {
+	border: 1px solid #fff;
+	padding: 10px 12px 10px 12px;
+	border-radius: 50%;
+	font-size: 25px;
+	transition: background-color .3s;
+}
+
+#bs-over .pre-footer i:hover {
+	background-color: #fff;
+	color:#28211F;
+}
+
+.pre-footer a {
+	text-decoration:none;
+	color:#fff;
+	-webkit-transition:color 0.25s;
+  	transition:color 0.25s;
+}
+
+.pre-footer #fb {
+	font-size: 23px;
+	padding: 10px 15px 10px 15px;
+}
+
+/*footer*/
+.footer {
+	height:200px;
+	background-color:#28211F;
+	text-align:center;
+}
+
+.footer h4 {
+	color:#C9C8C7;
+	font-weight:400;
+	font-size:14px;
+	padding-top:60px;
+}
+
+.footer i {
+	display:none;
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #fff;
+}
