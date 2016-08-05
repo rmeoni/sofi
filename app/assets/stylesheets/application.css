@@ -14,10 +14,19 @@
  *= require_self
  */
 
+ #bs-over {
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: scroll;
+}
+
 .main-nav {
 	background-color: #E8004A;
 	color:#fff;
-	z-index: 1000;
+	position: fixed;
+	z-index: 100;
 	width: 100%;
 }
 
@@ -40,6 +49,80 @@
 #bs-over #logo {
 	margin-left: 15px;
 	margin-top: 5px;
+}
+
+.menu {
+  background-color: #F0F0F0;
+  height: 100%;
+  position: fixed;
+  width: 280px;
+  right:-280px;
+  z-index: 1000;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top:60px;
+  text-align:center;
+}
+
+.menu li {
+  line-height: 45px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  text-align: center;
+
+}
+
+.menu a {
+  color: #434343;
+  font-size: 20px;
+  font-weight:600;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#bs-over .mobile-menu .current  a{
+	color:#888;
+	background-color: #000;
+}
+#bs-over .mobile-menu .current  a:hover{
+	color:#888;
+	background-color: #000;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 25px;
+  background-color:#F0F0F0;
+  color:#434343;
+  font-weight:200;
+  z-index: 1000;
+}
+
+.icon-close i {
+	font-size: 36px;
+}
+
+#bs-over .icon-menu {
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-top: 22px;
+  margin-right: 10px;
+  padding: 1px 0px 0px 5px;
+  z-index: 1000;
+  right: 5px;
+  display: none;
+}
+
+.icon-menu i {
+  margin-right: 5px;
+  font-size: 38px;
 }
 
 /*prefooter*/
@@ -112,3 +195,51 @@
 	text-decoration: none;
 	color: #fff;
 }
+
+@media only screen and (max-width:768px) {
+
+#bs-over .section h1 {
+	font-size: 3.4em;
+	margin-top: 40px;
+}
+
+
+#bs-over .main-nav .nav {
+	display:none;
+}
+
+#bs-over .icon-menu {
+	display:inline;
+	text-align:center;
+	position: fixed;
+	background-color: transparent;
+	float: right;
+}
+
+.mobile-logo {
+	display:inline-block;
+	text-align:center;
+	padding:20px;
+}
+
+}
+
+	/*screen resolutions between 620px and 800px*/
+	@media all and (min-width: 620px) and (max-width: 800px){
+		#section1 .imgsContainer{
+			margin-top: -278px;
+			margin-left: -685px;
+			width: 647px;
+			height: 563px;
+		}
+	}
+
+	/*screen resolutions lower than 620px*/
+	@media all and (max-width: 620px){
+		#section1 .imgsContainer{
+			margin-top: -208px;
+			margin-left: -516px;
+			width: 534px;
+			height: 464px;
+		}
+	}

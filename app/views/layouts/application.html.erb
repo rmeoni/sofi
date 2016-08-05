@@ -25,7 +25,27 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 </head>
 <body id ="bs-over">
+	<div class="top">
+	</div>
+	<!-- Mobile Menu CLose icon (will only appear in mobile devices-->
+	<div class="menu">
+		<div class="icon-close">
+			<i class="material-icons">close</i>
+		</div>
+
+    	<!-- Mobile Menu will only appear in mobile devices -->
+		<ul class="mobile-menu">
+			<li><a href="/">Templates</a></li>
+			<li><a href="/">Pricing</a></li>
+			<li><a href="/">Contact Us</a></li>
+        	<li><a href="/">Login</a></li>
+		</ul>
+	</div>
 	<div class="main-nav">
+		<!--for mobile-->
+	<div class="icon-menu pull-right">
+  		<i class="material-icons">menu</i>
+  	</div>
 			<img class="img-responsive" src="/images/logo.png" id="logo" width="60px"/>
 		<ul class="nav pull-right">
 			<li>Templates</li>
@@ -53,6 +73,44 @@
 				<h4>Restaurante Paseo Xejasmin, km 87.5, carretera interamericana,Tecpan, 502, Guatemala</h4>
 				<a href="#section-1"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
 			</div>
+<!-- Latest compiled and minified JavaScript for bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+ <script type="text/javascript">
+      var main = function() {
+     /* Push the body and the nav over by 280px over */
+      $('.icon-menu').click(function() {
+        $('.menu').animate({
+          right: "0px"
+        }, 200);
 
+        $('body').animate({
+          right: "280px"
+        }, 200);
+        });
+
+      /* Then push them back */
+        $('.icon-close').click(function() {
+        $('.menu').animate({
+          right: "-280px"
+        }, 200);
+
+        $('body').animate({
+          right: "0px"
+        }, 200);
+        });
+
+        $('.mobile-menu').click(function() {
+      $('.menu').animate({
+        right:"-280px"
+      },200);
+
+      $('body').animate({
+      right: "0px"
+    }, 200);
+});
+      };
+
+      $(document).ready(main);
+    </script>
 </body>
 </html>
