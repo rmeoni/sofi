@@ -125,6 +125,9 @@
   font-size: 38px;
 }
 
+.section {
+	margin-top: 42px;
+}
 /*prefooter*/
 
 .pre-footer {
@@ -200,7 +203,7 @@
 
 #bs-over .section h1 {
 	font-size: 3.4em;
-	margin-top: 40px;
+	margin-top: 10px;
 }
 
 
