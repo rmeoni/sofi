@@ -64,6 +64,9 @@
 		margin: 40px 0 0 0;
 	}
 
+	#bs-over #section0 h1 {
+	}
+
 
 
 
@@ -98,25 +101,8 @@
 	#section1 img{
 		height: 100%;
 	}
-	/*screen resolutions between 620px and 800px*/
-	@media all and (min-width: 620px) and (max-width: 800px){
-		#section1 .imgsContainer{
-			margin-top: -278px;
-			margin-left: -685px;
-			width: 647px;
-			height: 563px;
-		}
-	}
 
-	/*screen resolutions lower than 620px*/
-	@media all and (max-width: 620px){
-		#section1 .imgsContainer{
-			margin-top: -208px;
-			margin-left: -516px;
-			width: 534px;
-			height: 464px;
-		}
-	}
+
 	#iphone2{
 		z-index: 10;
 	}

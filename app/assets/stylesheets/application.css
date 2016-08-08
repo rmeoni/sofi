@@ -46,6 +46,10 @@
 	display: inline-block;
 }
 
+#bs-over .main-nav p {
+	font-size: 1.5em;
+	display: inline-block;
+}
 #bs-over #logo {
 	margin-left: 15px;
 	margin-top: 5px;
