@@ -4,7 +4,7 @@
 
 	body{
 		color: #333;
-		font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+		font-family: 'Open Sans', sans-serif;
 		position: relative;
 		overflow: scroll;
 	}
@@ -13,7 +13,7 @@
 	/* Style for our header texts
 	* --------------------------------------- */
 	h1{
-		font-size: 5em;
+		font-size: 3em;
 		font-family: arial,helvetica;
 		margin:0;
 		padding:0;
@@ -62,11 +62,12 @@
 		padding: 60px 0;
 	}
 	#section0 img{
-		height: 100%;
 		margin: 40px 0 0 0;
 	}
 
 	#bs-over #section0 h1 {
+		font-size: 3em;
+		margin-top: 20px;
 	}
 
 
@@ -109,15 +110,22 @@
 		z-index: 10;
 	}
 	#iphone2.active{
-		-webkit-transform: translate3d(-134px, 0px, 0px);
-		-moz-transform: translate3d(-134px, 0px, 0px);
-		-ms-transform:translate3d(-134px, 0px, 0px);
-		transform: translate3d(-134px, 0px, 0px);
+		-webkit-transform: translate3d(-114px, 0px, 0px);
+		-moz-transform: translate3d(-114px, 0px, 0px);
+		-ms-transform:translate3d(-114px, 0px, 0px);
+		transform: translate3d(-114px, 0px, 0px);
 	}
 
 	#iphone3{
 		z-index: 12;
 	}
+
+	#bs-over #iphone3 {
+		height: 450px;
+		margin-top: 80px;
+		margin-left: 60px;
+	}
+
 	#iphone3.active{
 		-webkit-transform: translate3d(213px, 0px, 0px);
 		-moz-transform: translate3d(213px, 0px, 0px);

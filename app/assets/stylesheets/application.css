@@ -15,6 +15,7 @@
  */
 
  #bs-over {
+  font-family: 'Open Sans', sans-serif;
   left: 0;
   margin: 0;
   padding: 0;
@@ -113,7 +114,7 @@
 }
 
 #bs-over .icon-menu {
-  color: #333;
+  color: #fff;
   cursor: pointer;
   margin-bottom: 25px;
   margin-left: 25px;
@@ -130,9 +131,6 @@
   font-size: 38px;
 }
 
-.section {
-	margin-top: 42px;
-}
 /*prefooter*/
 
 .pre-footer {
@@ -211,17 +209,29 @@
 	margin-top: 5px;
 }
 
-#bs-over .section h1 {
-	font-size: 3.4em;
+#bs-over #section0 h1 {
+	font-size: 3em;
 	margin-top: 10px;
 }
 
+#bs-over .fp-controlArrow.fp-prev {
+
+    border-color: transparent #333 transparent transparent;
+}
+#bs-over .fp-controlArrow.fp-next {
+  
+    border-color: transparent transparent transparent #333;
+}
 
 #bs-over .main-nav .nav {
 	display:none;
 }
 
 .main-nav img {
+	width: 300px;
+}
+
+#section0 img {
 	width: 300px;
 }
 
