@@ -23,8 +23,8 @@
 }
 
 .main-nav {
-	background-color: #E8004A;
-	color:#fff;
+	background-color: #fff;
+	color:#333;
 	position: fixed;
 	z-index: 100;
 	width: 100%;
@@ -33,7 +33,7 @@
 #bs-over .nav {
 	list-style-type: none;
 	display: inline-block;
-	margin-top: 30px;
+	margin-top: 15px;
 	margin-right: 10px;
 }
 
