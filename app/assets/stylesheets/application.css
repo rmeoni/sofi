@@ -206,6 +206,11 @@
 
 @media only screen and (max-width:768px) {
 
+#bs-over #logo {
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
 #bs-over .section h1 {
 	font-size: 3.4em;
 	margin-top: 10px;
@@ -217,7 +222,7 @@
 }
 
 .main-nav img {
-	width: 250px;
+	width: 300px;
 }
 
 #bs-over .icon-menu {
