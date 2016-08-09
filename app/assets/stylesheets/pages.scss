@@ -90,6 +90,7 @@
 		margin-left: 89px;
 		width: 395px;
 		z-index: 1;
+		text-align: justify;
 	}
 
 
@@ -109,8 +110,12 @@
 	}
 
 
-	#iphone2{
+	#bs-over #iphone2{
 		z-index: 10;
+		height: 450px;
+		width: 250px;
+		margin-top: 70px;
+		left: 120px;
 	}
 	#iphone2.active{
 		-webkit-transform: translate3d(-114px, 0px, 0px);
@@ -124,9 +129,9 @@
 	}
 
 	#bs-over #iphone3 {
-		height: 450px;
+		height: 470px;
 		margin-top: 80px;
-		margin-left: 60px;
+		margin-left: 50px;
 	}
 
 	#iphone3.active{
@@ -136,9 +141,11 @@
 		transform: translate3d(213px, 0px, 0px);
 	}
 
-	#iphone4{
+	#bs-over #iphone4{
 		z-index: 11;
-		left: 140px;
+		margin-top: 70px;
+		left: 40px;
+		height: 450px;
 	}
 
 	#iphone4.active{
