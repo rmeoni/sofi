@@ -34,8 +34,9 @@
 #bs-over .nav {
 	list-style-type: none;
 	display: inline-block;
-	margin-top: 15px;
+	margin-top: 5px;
 	margin-right: 10px;
+	font-size: 15px;
 }
 
 #bs-over .nav li {
