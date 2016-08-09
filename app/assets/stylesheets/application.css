@@ -244,7 +244,7 @@
 }
 
 .main-nav img {
-	width: 300px;
+	width: 200px;
 }
 
 #section0 img {
@@ -257,6 +257,11 @@
 	position: fixed;
 	background-color: transparent;
 	float: right;
+	margin-top: 1px;
+}
+
+#bs-over .icon-menu i {
+	font-size: 32px;
 }
 
 .mobile-logo {
