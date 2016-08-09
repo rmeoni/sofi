@@ -216,11 +216,26 @@
 
 #bs-over .fp-controlArrow.fp-prev {
 
-    border-color: transparent #333 transparent transparent;
+    border-color: transparent #dbdbdb transparent transparent;
+    transition: border-color .3s;
+    left: 28px;
 }
+
+#bs-over .fp-controlArrow.fp-prev:hover {
+
+    border-color: transparent #231F20 transparent transparent;
+}
+
 #bs-over .fp-controlArrow.fp-next {
   
-    border-color: transparent transparent transparent #333;
+    border-color: transparent transparent transparent #dbdbdb;
+    transition: border-color .3s;
+    right: 30px;
+}
+
+#bs-over .fp-controlArrow.fp-next:hover {
+  
+    border-color: transparent transparent transparent #231F20;
 }
 
 #bs-over .main-nav .nav {
@@ -248,6 +263,55 @@
 	text-align:center;
 	padding:20px;
 }
+
+#bs-over #section1 .wrap {
+	-webkit-transform: scale(0.5);
+		transform: scale(0.5);
+		left: 5px;
+}
+
+#bs-over #section1 .imgsContainer{
+		display: block;
+		position: absolute;
+		z-index: 1;
+		top: 15%;
+		left: 1%;
+		margin-top: -20.31em;
+		margin-left: -45em;
+		width: 10em;
+		height: 16em;
+	}
+
+#bs-over #section1 .box{
+		position: absolute;
+		text-align: justify;
+		top: 99%;
+		left: 1%;
+		margin-top: -8em;
+		margin-left: -5.8em;
+		width: 15em;
+		z-index: 1;
+		font-size: 1.4em;
+	}
+
+#section1 .box h2{
+		font-size: 1.4em;
+		text-align: left;
+	}
+
+#bs-over #iphone2 {
+		height: 450px;
+	}
+
+#bs-over #iphone3 {
+		height: 450px;
+		margin-top: 20px;
+		margin-left: 60px;
+	}
+
+#bs-over #iphone4 {
+		height: 450px;
+	}
 
 }
 
