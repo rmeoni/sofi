@@ -60,14 +60,15 @@
 	* --------------------------------------- */
 	#section0{
 		padding: 60px 0;
+		cursor: pointer;
 	}
 	#section0 img{
 		margin: 40px 0 0 0;
 	}
 
 	#bs-over #section0 h1 {
-		font-size: 2.5em;
-		margin-top: 30px;
+		font-size: 2em;
+		margin-top: 60px;
 		color: #231F20;
 	}
 
@@ -199,6 +200,11 @@
 		left: 42%;
 		position: absolute;
 		width: 582px;
+	}
+
+	#bs-over #section2 p {
+		font-size: 16px;
+		display: none;
 	}
 
 	#iphone-yellow{

@@ -78,21 +78,21 @@ html.fp-enabled,
     transform: translate3d(0,0,0);
 }
 .fp-controlArrow.fp-prev {
-    left: 50px;
+    left: 80px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #dbdbdb transparent transparent;
-    transition: border-color .2s;
+    border-color: transparent #fff transparent transparent;
+    transition: border-color .5s;
 }
 
 .fp-controlArrow.fp-prev:hover {
     border-color: transparent #231F20 transparent transparent;
 }
 .fp-controlArrow.fp-next {
-    right: 50px;
+    right: 80px;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent #dbdbdb;
-    transition: border-color .3s;
+    border-color: transparent transparent transparent #fff;
+    transition: border-color .5s;
 }
 
 .fp-controlArrow.fp-next:hover {

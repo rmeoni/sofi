@@ -14,6 +14,15 @@
 				'afterLoad': function(anchorLink, index){
 					if(index == 2){
 						$('#iphone3, #iphone2, #iphone4').addClass('active');
+								//moving the image
+						$('#section2').find('i').delay(200).animate({
+							left: '0%'
+						}, 1000, 'easeOutExpo');
+
+						$('.box').find('p').fadeIn(1000, function(){
+							$('.box').find('p').fadeIn(1000);
+						});;
+
 					}
 				},
 
@@ -87,7 +96,7 @@
 
 			<div class="box">
 				<h2>TECHNOLOGY MEETS DESIGN</h2>
-				Waistcoat roof <strong>party poutine</strong>, lo-fi stumptown ethical celiac keytar wolf. Fap narwhal brunch, hella ethical hashtag tousled. Ethical readymade keytar mustache, four loko bushwick hoodie vice. 
+				<p>Waistcoat roof <strong>party poutine</strong>, lo-fi stumptown ethical celiac keytar wolf. Fap narwhal brunch, hella ethical hashtag tousled. Ethical readymade keytar mustache, four loko bushwick hoodie vice.</p>
 			</div>
 		</div>
 	</div>

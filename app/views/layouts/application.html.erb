@@ -49,14 +49,19 @@
 	<div class="icon-menu pull-right">
   		<i class="material-icons">menu</i>
   	</div>
-			<img class="img-responsive" src="/images/blancohorizontal.png" id="logo" width="250px"/>
-		<ul class="nav pull-right">
+			<img class="img-responsive" src="/images/blancohorizontal.png" id="logo" width="225px"/>
+		<ul class="nav">
 			<li>Templates</li>
 			<li>Pricing</li>
 			<li>Contact</li>
-			<li>FAQ</li>
-			<li>Login</li>
+      <li>About</li>
+      <li>FAQ</li>
 		</ul>
+
+    <ul class="nav pull-right">
+      <li><i class="material-icons">translate</i></li>
+      <li><i class="material-icons">vpn_key</i></li>
+    </ul>
 	</div>
 
 <%= yield %>
@@ -81,6 +86,18 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
  <script type="text/javascript">
       var main = function() {
+        $('#section0').mouseenter(function(){
+          $('.fp-prev').css("border-color", "transparent #333333 transparent transparent");
+          $('.fp-next').css("border-color", "transparent transparent transparent #333333");
+
+        });
+
+        $('#section0').mouseleave(function(){
+          $('.fp-prev').css("border-color", "transparent #fff transparent transparent");
+          $('.fp-next').css("border-color", "transparent transparent transparent #fff");
+        });
+
+
      /* Push the body and the nav over by 280px over */
       $('.icon-menu').click(function() {
         $('.menu').animate({

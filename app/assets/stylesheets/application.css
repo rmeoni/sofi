@@ -29,31 +29,52 @@
 	position: fixed;
 	z-index: 100;
 	width: 100%;
+	text-align: left;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 #bs-over .nav {
 	list-style-type: none;
 	display: inline-block;
-	margin-top: 5px;
 	margin-right: 10px;
-	font-size: 15px;
+	font-size: 13px;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 #bs-over .nav li {
 	display: inline-block;
-	padding: 5px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	padding-top: 1px;
+	margin-top: 1px;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+}
+
+#bs-over .nav i {
+	margin-top: 0px;
+	padding-top: 10px;
 }
 
 #bs-over .main-nav img {
 	display: inline-block;
+	padding-top: 0px;
+	margin-top: 0px;
 }
 
 #bs-over .main-nav p {
 	font-size: 1.5em;
 	display: inline-block;
+	margin-top: 0px;
+	padding-top: 0px;
+	top: -20px;
 }
 #bs-over #logo {
-	margin-left: 15px;
+	margin-left: 5px;
 	margin-top: 5px;
 }
 
@@ -211,8 +232,8 @@
 }
 
 #bs-over #section0 h1 {
-	font-size: 3em;
-	margin-top: 10px;
+	font-size: 2em;
+	margin-top: 80px;
 }
 
 #bs-over .fp-controlArrow.fp-prev {
@@ -244,7 +265,7 @@
 }
 
 .main-nav img {
-	width: 200px;
+	width: 250px;
 }
 
 #section0 img {
