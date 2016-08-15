@@ -163,6 +163,8 @@
 	* --------------------------------------- */
 	#section2 img{
 		position:absolute;
+		-webkit-transform: scale(0.7);
+		transform: scale(0.7);
 	}
 	#section2 .imgsContainer,
 	#staticImg .imgsContainer,
@@ -219,12 +221,14 @@
 
 	#iphone-blue{
 		top: 320px;
-		left: 448px;
+		left: 248px;
 	}
 
 	#iphone-green{
 		left: 106px;
 		position:absolute;
+		-webkit-transform: scale(0.7);
+		transform: scale(0.7);
 	}
 
 	#staticImg{
@@ -286,6 +290,8 @@
 		top: 155px;
 		left: 455px;
 		position: absolute;
+		-webkit-transform: scale(0.7);
+		transform: scale(0.7);
 	}
 	#section3 .box{
 		text-align: center;

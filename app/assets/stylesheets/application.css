@@ -58,7 +58,7 @@
 
 #bs-over .nav i {
 	margin-top: 0px;
-	padding-top: 10px;
+	padding-top: 20px;
 }
 
 #bs-over .main-nav img {
@@ -240,9 +240,7 @@
 
 #bs-over .fp-controlArrow.fp-prev {
 
-    border-color: transparent #dbdbdb transparent transparent;
-    transition: border-color .3s;
-    left: 28px;
+    display: none;
 }
 
 #bs-over .fp-controlArrow.fp-prev:hover {
@@ -252,9 +250,7 @@
 
 #bs-over .fp-controlArrow.fp-next {
   
-    border-color: transparent transparent transparent #dbdbdb;
-    transition: border-color .3s;
-    right: 30px;
+    display: none;
 }
 
 #bs-over .fp-controlArrow.fp-next:hover {
@@ -277,6 +273,10 @@
 	margin-left: 20px;
 	padding-left: 20px;
 	left: 5px;
+}
+
+#bs-over .nav i {
+	padding-top: 24px;
 }
 
 #section0 img {
