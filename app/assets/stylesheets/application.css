@@ -41,15 +41,16 @@
 	font-size: 13px;
 	margin-top: 0px;
 	padding-top: 0px;
+	margin-left: 25px;
 }
 
 #bs-over .nav li {
 	display: inline-block;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: 25px;
+	padding-left: 25px;
 	padding-bottom: 5px;
-	padding-top: 1px;
-	margin-top: 1px;
+	padding-top: 0px;
+	margin-top: 0px;
 	text-align: center;
 	cursor: pointer;
 	float: left;
@@ -74,7 +75,7 @@
 	top: -20px;
 }
 #bs-over #logo {
-	margin-left: 5px;
+	margin-left: 115px;
 	margin-top: 5px;
 }
 
