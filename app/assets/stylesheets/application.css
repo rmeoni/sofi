@@ -38,10 +38,10 @@
 	list-style-type: none;
 	display: inline-block;
 	margin-right: 10px;
-	font-size: 13px;
+	font-size: 15px;
 	margin-top: 0px;
 	padding-top: 0px;
-	margin-left: 30px;
+	margin-left: 25px;
 }
 
 #bs-over .nav li {
@@ -65,6 +65,7 @@
 	display: inline-block;
 	padding-top: 0px;
 	margin-top: 0px;
+	width:3em;
 }
 
 #bs-over .main-nav p {
@@ -265,31 +266,52 @@
 	display:none;
 }
 
+#bs-over .main-nav {
+	text-align: center;
+	margin-left: 0px;
+	height: 3.5em;
+}
+
 .main-nav img {
-	width: 250px;
+	width: 50px;
+	margin-left: 20px;
+	padding-left: 20px;
+	left: 5px;
 }
 
 #section0 img {
 	width: 300px;
 }
 
+#bs-over #login {
+	display: inline-block;
+}
+
+#bs-over #translate {
+	display: none;
+}
+
 #bs-over .icon-menu {
 	display:inline;
-	text-align:center;
-	position: fixed;
+	text-align:left;
+	position: relative;
 	background-color: transparent;
-	float: right;
-	margin-top: 1px;
+	float: left;
+	margin-top: 10px;
 }
 
 #bs-over .icon-menu i {
 	font-size: 32px;
+	margin-left: 0px;
+	left: 1px;
 }
 
-.mobile-logo {
+#bs-over .mobile-logo {
 	display:inline-block;
 	text-align:center;
 	padding:20px;
+	padding-left: 0px;
+	left: 10px;
 }
 
 #bs-over #section1 .wrap {
