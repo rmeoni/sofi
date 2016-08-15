@@ -54,6 +54,11 @@
 	text-align: center;
 	cursor: pointer;
 	float: left;
+	transition: color .3s;
+}
+
+#bs-over .nav li:hover {
+	color: #888888;
 }
 
 #bs-over .nav i {
@@ -235,7 +240,7 @@
 
 #bs-over #section0 h1 {
 	font-size: 2em;
-	margin-top: 80px;
+	margin-top: 40px;
 }
 
 #bs-over .fp-controlArrow.fp-prev {
@@ -276,7 +281,7 @@
 }
 
 #bs-over .nav i {
-	padding-top: 24px;
+	padding-top: 15px;
 }
 
 #section0 img {
