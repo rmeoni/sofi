@@ -160,6 +160,11 @@
   font-size: 38px;
 }
 
+#bs-over #section3 .box p {
+		font-size: 1em;
+		text-align: center;
+	}
+
 /*prefooter*/
 
 .pre-footer {
@@ -362,17 +367,67 @@
 #bs-over #iphone2 {
 		height: 450px;
 		margin-top: 5px;
+		left: 200px;
 	}
 
 #bs-over #iphone3 {
 		height: 450px;
 		margin-top: 20px;
-		margin-left: 60px;
+		margin-left: 120px;
 	}
 
 #bs-over #iphone4 {
 		height: 450px;
 		margin-top: 5px;
+		left: 80px;
+	}
+
+#bs-over #iphone-yellow{
+		top: -35px;
+		left: -222px;
+		-webkit-transform: scale(0.4);
+		transform: scale(0.4);
+	}
+
+#bs-over #iphone-red{
+		top: 90px;
+		left: 56px;
+		-webkit-transform: scale(0.4);
+		transform: scale(0.4);
+	}
+
+#bs-over #iphone-blue{
+		top: 320px;
+		left: 348px;
+		-webkit-transform: scale(0.4);
+		transform: scale(0.4);
+	}
+
+#bs-over #iphone-green{
+		left: 46px;
+		position:absolute;
+		-webkit-transform: scale(0.4);
+		transform: scale(0.4);
+	}
+#bs-over #section3 img {
+	left: 400px;
+	-webkit-transform: scale(0.4);
+		transform: scale(0.4);
+}
+
+#bs-over #section3 .box{
+		text-align: center;
+		width: 275px;
+		margin-left: 20px;
+	}
+#bs-over #section3 .box h2 {
+		font-size: 0.8em;
+		text-align: left;
+	}
+
+#bs-over #section3 .box p {
+		font-size: 0.6em;
+		text-align: justify;
 	}
 
 }
