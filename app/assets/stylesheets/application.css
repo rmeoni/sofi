@@ -170,6 +170,10 @@
   font-size: 38px;
 }
 
+#bs-over #section0 #ipad {
+	margin: 0px;
+	margin-top: -40px;
+}
 #bs-over #section3 .box p {
 		font-size: 1em;
 		text-align: center;
@@ -339,6 +343,10 @@
 	left: 10px;
 }
 
+#bs-over #section0 #ipad {
+	margin-top: -20px;
+}
+
 #bs-over #section1 .wrap {
 	-webkit-transform: scale(0.5);
 		transform: scale(0.5);
@@ -383,7 +391,7 @@
 #bs-over #iphone3 {
 		height: 450px;
 		margin-top: 5px;
-		margin-left: 120px;
+		margin-left: 110px;
 	}
 
 #bs-over #iphone4 {
