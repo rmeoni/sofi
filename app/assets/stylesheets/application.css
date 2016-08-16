@@ -61,6 +61,16 @@
 	color: #888888;
 }
 
+#bs-over .nav li a {
+	text-decoration: none;
+	color: #fff;
+	transition: color .5s;
+}
+
+#bs-over .nav li a:hover {
+	color: #888888;
+}
+
 #bs-over .nav i {
 	margin-top: 0px;
 	padding-top: 10px;
@@ -398,7 +408,7 @@
 
 #bs-over #iphone-blue{
 		top: 320px;
-		left: 348px;
+		left: 98px;
 		-webkit-transform: scale(0.4);
 		transform: scale(0.4);
 	}
@@ -409,6 +419,15 @@
 		-webkit-transform: scale(0.4);
 		transform: scale(0.4);
 	}
+#bs-over #section2 .box {
+	left: 20px;
+	width: 275px;
+	text-align: left;
+}
+
+#bs-over #section2 .box p {
+	text-align: justify;
+}
 #bs-over #section3 img {
 	left: 400px;
 	-webkit-transform: scale(0.4);
