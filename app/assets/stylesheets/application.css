@@ -183,7 +183,7 @@
 
 .pre-footer {
 	height:55px;
-	background-color:#332C29;
+	background-color:#434343;
 	text-align:center;
 	color:#fff;
 }
@@ -210,13 +210,13 @@
 
 #bs-over .pre-footer i:hover {
 	background-color: #fff;
-	color: #332C29;
+	color: #434343;
 }
 
 #bs-over .pre-footer a {
 	text-decoration:none;
 	color:#fff;
-	background-color: #332C29;
+	background-color: #434343;
   	transition: background-color 0.25s;
 }
 
@@ -233,13 +233,13 @@
 /*footer*/
 .footer {
 	height:70px;
-	background-color:#28211F;
+	background-color:#333333;
 	text-align:center;
 	bottom: 0px;
 }
 
 .footer h4 {
-	color:#C9C8C7;
+	color:#fff;
 	font-weight:400;
 	font-size:18px;
 	padding-top:15px;
