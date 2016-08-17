@@ -210,15 +210,15 @@
 
 #bs-over .pre-footer i:hover {
 	background-color: #fff;
-	color:#332C29;
+	color: #332C29;
 }
 
 #bs-over .pre-footer a {
 	text-decoration:none;
 	color:#fff;
 	background-color: #332C29
-	-webkit-transition:color 0.25s;
-  	transition:background-color 0.25s;
+	-webkit-transition: background-color 0.25s;
+  	transition: background-color 0.25s;
 }
 
 #bs-over .pre-footer #twitter i:hover {
