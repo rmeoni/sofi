@@ -182,7 +182,7 @@
 /*prefooter*/
 
 .pre-footer {
-	height:85px;
+	height:55px;
 	background-color:#332C29;
 	text-align:center;
 	color:#fff;
@@ -190,7 +190,7 @@
 
 .pre-footer ul {
 	list-style-type: none;
-	margin-top:20px;
+	margin-top:2px;
 	padding-left: 0px;
 	margin-left: 0px;
 }
@@ -204,13 +204,13 @@
 	border: 1px solid #fff;
 	padding: 10px 12px 10px 12px;
 	border-radius: 50%;
-	font-size: 25px;
+	font-size: 18px;
 	transition: background-color .3s;
 }
 
 #bs-over .pre-footer i:hover {
-	background-color: #fff;
-	color:#28211F;
+	background-color: #3B5998;
+	color:#fff;
 }
 
 .pre-footer a {
@@ -220,14 +220,15 @@
   	transition:color 0.25s;
 }
 
-.pre-footer #fb {
-	font-size: 23px;
+#bs-over .pre-footer #fb {
+	font-size: 20px;
 	padding: 10px 15px 10px 15px;
+	transition: background-color .5s;
 }
 
 /*footer*/
 .footer {
-	height:200px;
+	height:90px;
 	background-color:#28211F;
 	text-align:center;
 }
@@ -235,19 +236,30 @@
 .footer h4 {
 	color:#C9C8C7;
 	font-weight:400;
-	font-size:14px;
-	padding-top:60px;
+	font-size:18px;
+	padding-top:20px;
 }
 
 .footer i {
-	display:none;
 	text-decoration: none;
 	color: #fff;
+	margin-right: 2px;
+	margin-left: 2px;
 }
 
 .footer a {
 	text-decoration: none;
 	color: #fff;
+	transition: color .5s;
+}
+
+.footer a:hover {
+	color: #888888;
+}
+
+.footer p {
+	color: #dbdbdb;
+	font-size: 0.8em;
 }
 
 @media only screen and (max-width:768px) {

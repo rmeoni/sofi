@@ -271,7 +271,7 @@
 			top: 50%;
 	}
 	#staticImg.moveDown img{
-		top: 155px;
+		top: 125px;
 	}
 
 	#staticImg.active .imgsContainer{
@@ -294,7 +294,7 @@
 	}
 
 	#section3 img{
-		top: 155px;
+		top: 125px;
 		left: 350px;
 		position: absolute;
 		-webkit-transform: scale(0.7);
@@ -302,7 +302,26 @@
 	}
 	#section3 .box{
 		text-align: center;
-		margin: 10% 0 0 0;
+		margin: 6% 0 0 0;
+	}
+
+	#section3 .pre-footer {
+		margin-top: 0px;
+		padding-top: 0px;
+		bottom: 90px;
+		z-index: 1000;
+		position: absolute;
+		width: 100%;
+	}
+
+	#section3 .footer {
+		margin-top: 0px;
+		padding-top: 0px;
+		bottom: 0px;
+		z-index: 1000;
+		position: absolute;
+		width: 100%;
+
 	}
 
 

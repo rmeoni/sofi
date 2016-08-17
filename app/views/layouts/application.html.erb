@@ -28,7 +28,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 </head>
 <body id ="bs-over">
-	<div class="top">
+	<div id="top">
 	</div>
 	<!-- Mobile Menu CLose icon (will only appear in mobile devices-->
 	<div class="menu">
@@ -50,7 +50,9 @@
 	<div class="icon-menu pull-right">
   		<i class="material-icons">menu</i>
   	</div>
+    <%= link_to root_path, :data => { :reload => true } do %>
 			<img class="img-responsive" src="/images/logo.png" id="logo" width="38px"/>
+    <% end %>
 		<ul class="nav">
 			<li><a href="/templates">Templates</a></li>
 			<li>Pricing</li>
@@ -80,8 +82,12 @@
 		</div>
 		<!--footer-->
 		<div class="footer">
-				<h4>Sofinteractive</h4>
-				<a href="#section-1"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
+        <a href="#top"><i class="fa fa-chevron-up fa-2x" aria-hidden="true"></i></a>
+				<h4><i class="fa fa-copyright" aria-hidden="true"></i>
+ Sofinteractive</h4>
+        <p>Made with a tons of <i class="fa fa-coffee" aria-hidden="true"></i>
+ and <i class="fa fa-heart" aria-hidden="true"></i>
+ in Guatemala.</p>
 			</div>
 <!-- Latest compiled and minified JavaScript for bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
