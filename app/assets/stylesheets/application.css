@@ -216,8 +216,7 @@
 #bs-over .pre-footer a {
 	text-decoration:none;
 	color:#fff;
-	background-color: #332C29
-	-webkit-transition: background-color 0.25s;
+	background-color: #332C29;
   	transition: background-color 0.25s;
 }
 
