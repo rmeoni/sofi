@@ -1,1 +1,14 @@
-<h1>Choose your beautiful template</h1>
+<div class="templates">
+	<div class="container">
+		<h1>Choose your template</h1>
+		<div class="row">
+			<% @templates.each do |t| %>
+			<div class="col-md-3 col-xs-12">
+				<a href="<%=t.url%>" target="_blank">
+				<img src="<%= t.image %>" class="img-responsive" width="250px"/>
+				</a>
+			</div>
+			<% end %>
+		</div>
+	</div>
+</div>
