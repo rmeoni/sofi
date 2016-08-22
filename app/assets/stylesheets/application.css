@@ -179,18 +179,20 @@
 	padding-top: 60px;
 }
 
-#bs-over #section2 .row p {
-	color: #333;
-	font-size: 1em;
-	left: 0;
-	right: 0;
-	margin: 0;
-	padding: 0;
+#bs-over #section2 h2 {
+	font-size: 1.3em; 
+}
+
+#bs-over #section2 h4 {
+	color: #808080;
+	font-size: 1.2em;
+	text-align: justify;
+	padding: 40px;
 }
 
 #bs-over #section3 .box p {
 		font-size: 1em;
-		text-align: center;
+		text-align: justify;
 	}
 
 /*prefooter*/
@@ -412,19 +414,19 @@
 #bs-over #iphone2 {
 		height: 450px;
 		margin-top: 5px;
-		left: 200px;
+		left: 280px;
 	}
 
 #bs-over #iphone3 {
 		height: 450px;
 		margin-top: 5px;
-		margin-left: 110px;
+		margin-left: 155px;
 	}
 
 #bs-over #iphone4 {
 		height: 450px;
 		margin-top: 5px;
-		left: 80px;
+		left: 150px;
 	}
 
 #bs-over #iphone-yellow{
@@ -460,9 +462,14 @@
 	text-align: left;
 }
 
-#bs-over #section2 .box p {
-	text-align: justify;
+#bs-over #section2 h2{
+	font-size: 1em;
 }
+
+#bs-over #section2 h4 {
+	font-size: 0.8em;
+}
+
 #bs-over #section3 img {
 	left: 400px;
 	-webkit-transform: scale(0.4);
