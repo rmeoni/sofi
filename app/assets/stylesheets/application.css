@@ -174,6 +174,20 @@
 	margin: 0px;
 	margin-top: -30px;
 }
+
+#bs-over #section2 .row {
+	padding-top: 60px;
+}
+
+#bs-over #section2 .row p {
+	color: #333;
+	font-size: 1em;
+	left: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+}
+
 #bs-over #section3 .box p {
 		font-size: 1em;
 		text-align: center;
@@ -205,7 +219,7 @@
 	padding: 10px 12px 10px 12px;
 	border-radius: 50%;
 	font-size: 18px;
-	transition: background-color .3s;
+	transition: background-color .5s;
 }
 
 #bs-over .pre-footer i:hover {
@@ -218,10 +232,6 @@
 	color:#fff;
 	background-color: #434343;
   	transition: background-color 0.25s;
-}
-
-#bs-over .pre-footer #twitter i:hover {
-	background-color: #1DA1F2;
 }
 
 #bs-over .pre-footer #fb {
