@@ -86,7 +86,7 @@ html.fp-enabled,
 }
 
 .fp-controlArrow.fp-prev:hover {
-    border-color: transparent #231F20 transparent transparent;
+    border-color: transparent #dbdbdb transparent transparent;
 }
 .fp-controlArrow.fp-next {
     right: 80px;
@@ -96,7 +96,7 @@ html.fp-enabled,
 }
 
 .fp-controlArrow.fp-next:hover {
-    border-color: transparent transparent transparent #231F20;
+    border-color: transparent transparent transparent #dbdbdb;
 }
 .fp-scrollable {
     overflow: scroll;

@@ -24,7 +24,7 @@
 }
 
 .main-nav {
-	background-color: #333333;
+	background-color: #FF1160;
 	color:#fff;
 	position: fixed;
 	z-index: 100;
@@ -68,7 +68,7 @@
 }
 
 #bs-over .nav li a:hover {
-	color: #888888;
+	color: #333;
 }
 
 #bs-over .nav i {
@@ -96,7 +96,7 @@
 }
 
 .menu {
-  background-color: #F0F0F0;
+  background-color: #333;
   height: 100%;
   position: fixed;
   width: 280px;
@@ -121,7 +121,7 @@
 }
 
 .menu a {
-  color: #434343;
+  color: #fff;
   font-size: 20px;
   font-weight:600;
   text-decoration: none;
@@ -142,9 +142,10 @@
   padding-left: 10px;
   padding-top: 3px;
   background-color:#F0F0F0;
-  color:#434343;
+  color:#fff;
   font-weight:200;
   z-index: 1000;
+  height: 3.3em;
 }
 
 .icon-close i {
@@ -199,7 +200,7 @@
 
 .pre-footer {
 	height:55px;
-	background-color:#434343;
+	background-color:#E90046;
 	text-align:center;
 	color:#fff;
 }
@@ -232,7 +233,7 @@
 #bs-over .pre-footer a {
 	text-decoration:none;
 	color:#fff;
-	background-color: #434343;
+	background-color: #E90046;
   	transition: background-color 0.25s;
 }
 
@@ -245,7 +246,7 @@
 /*footer*/
 .footer {
 	height:80px;
-	background-color:#333333;
+	background-color:#FF1160;
 	text-align:center;
 	bottom: 0px;
 }
@@ -275,7 +276,7 @@
 }
 
 .footer p {
-	color: #dbdbdb;
+	color: #fff;
 	font-size: 0.8em;
 }
 
