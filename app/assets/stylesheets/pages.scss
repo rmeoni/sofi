@@ -112,11 +112,12 @@
 	* --------------------------------------- */
 
 	#bs-over #section2 h2 {
-		font-size: 2em;
+		font-size: 1.4em;
 		text-transform: uppercase;
 		text-align: center;
-		padding-bottom: 5px;
+		padding-bottom: 20px;
 		margin-bottom: 0px;
+		padding-top: 80px;
 	}
 
 	#bs-over #section2 p {
@@ -134,7 +135,8 @@
 		width: 340px;
 		position: relative;
 		display: inline-block;
-		padding: 10px;
+		padding: 20px 10px 10px 10px;
+		margin-top: 20px;
 	}
 
 	#bs-over #section2 ul {
@@ -145,11 +147,6 @@
 	#bs-over #section2 .row {
 	padding-top: 10px;
 	}
-
-#bs-over #section2 h2 {
-	font-size: 1.3em;
-	padding-top: 50px; 
-}
 
 #bs-over #section2 h4 {
 	color: #333;
