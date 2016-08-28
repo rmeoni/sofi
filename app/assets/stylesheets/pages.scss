@@ -84,84 +84,26 @@
 
 	/* Section 1
 	* --------------------------------------- */
-	#section1 img{
-		position:absolute;
-		left: 40px;
-		top: 100px;
+	#bs-over #section1 img{
+		max-height: 180px;
+		display: inline;
 	}
 
-	#section1 .box{
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		margin-top: -192px;
-		margin-left: 80px;
-		width: 395px;
-		z-index: 1;
-		text-align: justify;
+	#bs-over #section1 h2 {
+		padding-top: 80px;
+		font-size: 2em;
+		text-transform: uppercase;
 	}
 
-
-	#section1 .imgsContainer{
-		display: block;
-		position: absolute;
-		z-index: 1;
-		top: 42%;
-		left: 58%;
-		margin-top: -325px;
-		margin-left: -747px;
-		width: 800px;
-		height: 696px;
-	}
-	#section1 img{
-		height: 100%;
+	#bs-over #section1 #img-row {
+		padding-top: 30px;
 	}
 
-
-	#bs-over #iphone2{
-		z-index: 10;
-		height: 425px;
-		width: 245px;
-		margin-top: 70px;
-		left: 200px;
-	}
-	#iphone2.active{
-		-webkit-transform: translate3d(-114px, 0px, 0px);
-		-moz-transform: translate3d(-114px, 0px, 0px);
-		-ms-transform:translate3d(-114px, 0px, 0px);
-		transform: translate3d(-114px, 0px, 0px);
+	#bs-over #section1 .col-md-3 {
+		position: relative;
+		display: inline-block;
 	}
 
-	#iphone3{
-		z-index: 12;
-	}
-
-	#bs-over #iphone3 {
-		height: 425px;
-		margin-top: 70px;
-		margin-left: 100px;
-	}
-
-	#iphone3.active{
-		-webkit-transform: translate3d(213px, 0px, 0px);
-		-moz-transform: translate3d(213px, 0px, 0px);
-		-ms-transform:translate3d(213px, 0px, 0px);
-		transform: translate3d(213px, 0px, 0px);
-	}
-
-	#bs-over #iphone4{
-		z-index: 11;
-		margin-top: 70px;
-		left: 100px;
-		height: 425px;
-	}
-
-	#iphone4.active{
-		-webkit-transform: translate3d(548px, 0px, 0px);
-		-moz-transform: translate3d(548px, 0px, 0px);
-		-ms-transform:translate3d(548px, 0px, 0px);
-		transform: translate3d(548px, 0px, 0px);
-	}
 
 
 
@@ -216,72 +158,12 @@
 		display: none;
 	}
 
-	#iphone-yellow{
-		top: -22px;
-		left: -48px;
-	}
-
-	#iphone-red{
-		top: -22px;
-		left: 250px;
-	}
-
-	#iphone-blue{
-		top: 275px;
-		left: 450px;
-	}
-
-	#iphone-green{
-		left: 156px;
-		position:absolute;
-		-webkit-transform: scale(0.7);
-		transform: scale(0.7);
-	}
-
-	#staticImg{
-		display: block;
-		position: absolute;
-		z-index: 1;
-		top: 200%;
-		left: 0;
-		width: 100%;
-		min-width: 980px;
-		height: 100%;
-
-		-webkit-transition: all 0.7s ease-out;
-		-moz-transition: all 0.7s ease-out;
-		-o-transition: all 0.7s ease-out;
-		transition: all 0.7s ease-out;
-
-		-webkit-backface-visibility: hidden;
-		-webkit-perspective: 1000;
-	}
-	#staticImg.moveDown{
-	-webkit-transform: translate3d(0, 100%, 0);
-      -ms-transform: translate3d(0, 100%, 0);
-          transform: translate3d(0, 100%, 0);
-	}
-	#staticImg.moveUp{
-
-	-webkit-transform: translate3d(0, 0, 0);
-      -ms-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
-	}
-	#staticImg.moveDown .imgsContainer{
-			top: 50%;
-	}
-	#staticImg.moveDown img{
-		top: 125px;
-	}
-
-	#staticImg.active .imgsContainer{
-		top: 50%;
+	#bs-over #section2 h2 {
+		font-size: 2em;
+		text-transform: uppercase;
 	}
 
 
-	#staticImg.active img{
-		top: 487px;
-	}
 
 
 
@@ -293,16 +175,39 @@
 		top: 50%;
 	}
 
-	#section3 img{
-		top: 125px;
-		left: 350px;
-		position: absolute;
-		-webkit-transform: scale(0.7);
-		transform: scale(0.7);
+	#section3 h2 {
+		font-size: 1.5em;
+		text-transform: uppercase;
+		padding-top: 60px;
 	}
-	#section3 .box{
-		text-align: center;
-		margin: 6% 0 0 0;
+
+	#section3 form {
+		padding: 10px 100px 20px 100px;
+		text-align: left;
+	}
+
+	#section3 input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+	#section3 textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+	#section3 button {
+	width: 100%;
+	padding: 15px 20px;
+	margin-top: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #333;
 	}
 
 	#section3 .pre-footer {
