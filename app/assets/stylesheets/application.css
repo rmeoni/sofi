@@ -140,16 +140,16 @@
 .icon-close {
   cursor: pointer;
   padding-left: 10px;
-  padding-top: 3px;
+  padding-top: 8px;
   background-color:#F0F0F0;
   color:#fff;
   font-weight:200;
   z-index: 1000;
-  height: 3.3em;
+  height: 3em;
 }
 
 .icon-close i {
-	font-size: 36px;
+	font-size: 34px;
 	color: #333;
 }
 
@@ -177,23 +177,25 @@
 }
 
 #bs-over #section2 .row {
-	padding-top: 60px;
+	padding-top: 10px;
 }
 
 #bs-over #section2 h2 {
-	font-size: 1.3em; 
+	font-size: 1.3em;
+	padding-top: 50px; 
 }
 
 #bs-over #section2 h4 {
-	color: #808080;
+	color: #333;
 	font-size: 1.2em;
 	text-align: justify;
 	padding: 40px;
 }
 
-#bs-over #section3 .box p {
+#bs-over #section3  p {
 		font-size: 1em;
-		text-align: justify;
+		text-align: center;
+		color: #fff;
 	}
 
 /*prefooter*/
@@ -418,11 +420,10 @@
 }
 
 #bs-over #section2 h2{
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 #bs-over #section2 h4 {
-	font-size: 0.8em;
 }
 
 #bs-over #section3 img {

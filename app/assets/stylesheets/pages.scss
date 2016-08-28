@@ -91,7 +91,7 @@
 
 	#bs-over #section1 h2 {
 		padding-top: 80px;
-		font-size: 2em;
+		font-size: 1.5em;
 		text-transform: uppercase;
 	}
 
@@ -110,57 +110,35 @@
 
 	/* Section 2
 	* --------------------------------------- */
-	#section2 img{
-		position:absolute;
-		-webkit-transform: scale(0.7);
-		transform: scale(0.7);
-	}
-	#section2 .imgsContainer,
-	#staticImg .imgsContainer,
-	#section3 .imgsContainer{
-		position: absolute;
-		z-index: 1;
-		left: 50%;
-		display: block;
-		margin-top: -288px;
-		margin-left: -636px;
-		width: 0;
-		height: 0;
-
-		-webkit-transition: all 1.2s ease-in-out;
-		-moz-transition: all 1.2s ease-in-out;
-		-o-transition: all 1.2s ease-in-out;
-		transition: all 1.2s ease-in-out;
-	}
-
-	#section2.moveUp .imgsContainer{
-		top: 50%;
-	}
-
-	#section2.moveDown .imgsContainer,
-	#staticImg .imgsContainer{
-		top: 90%;
-	}
-
-	#section2.active .imgsContainer{
-		top: 50%;
-	}
-
-	#section2 .box{
-		top: 22%;
-		left: 42%;
-		position: absolute;
-		width: 582px;
-	}
-
-	#bs-over #section2 p {
-		font-size: 20px;
-		display: none;
-	}
 
 	#bs-over #section2 h2 {
 		font-size: 2em;
 		text-transform: uppercase;
+		text-align: center;
+		padding-bottom: 5px;
+		margin-bottom: 0px;
+	}
+
+	#bs-over #section2 p {
+		font-size: 1.2em;
+		color: #333;
+		text-align: justify;
+	}
+
+	#bs-over #section2 span {
+		color:#A0A0A5;
+	}
+
+
+	#section2 .col-md-4 {
+		width: 350px;
+		position: relative;
+		display: inline-block;
+	}
+
+	#bs-over #section2 ul {
+		text-align: left;
+		padding-left: 18px;
 	}
 
 
