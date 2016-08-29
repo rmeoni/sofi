@@ -13,6 +13,7 @@
    <%= javascript_include_tag 'jquery.fullPage.min' %>
    <%= javascript_include_tag 'examples' %>
    <%= javascript_include_tag 'jquery.slimscroll' %>
+   <%= javascript_include_tag 'jquery.combinedScroll' %>
   <%= csrf_meta_tags %>
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet"> 
@@ -39,11 +40,11 @@
 
     	<!-- Mobile Menu will only appear in mobile devices -->
 		<ul class="mobile-menu">
-      <li><a href="/">About Us</a></li>
-			<li><a href="/templates">Templates</a></li>
-			<li><a href="/pricing">Pricing</a></li>
-			<li><a href="/">Contact</a></li>
-			<li><a href="/">FAQ</a></li>
+      <li><a href="#section0">About Us</a></li>
+			<li><a href="#section1">Templates</a></li>
+			<li><a href="#section2">Pricing</a></li>
+      <li><a href="#section3">FAQ</a></li>
+			<li><a href="#section3">Contact</a></li>
 		</ul>
 	</div>
 	<div class="main-nav">
@@ -55,20 +56,16 @@
 			<img class="img-responsive" src="/images/logo.png" id="logo" width="38px"/>
     <% end %>
 		<ul class="nav">
-      <li><a href="/>">About Us</a></li>
-			<li> 
-        <%= link_to "/templates", :data => { :reload => true } do %>
-        Templates
-        <%end%>
-      </li>
-			<li><a href="/pricing">Pricing</a></li>
-			<li><a href="/">Contact</a></li>
-      <li><a href="/">FAQ</a></li>
+      <li><a href="#section0">About Us</a></li>
+      <li><a href="#section1">Templates</a></li>
+      <li><a href="#section2">Pricing</a></li>
+      <li><a href="#section3">FAQ</a></li>
+			<li><a href="#section3">Contact</a></li>
 		</ul>
 
     <ul class="nav pull-right" id="login">
-      <li id="translate"><a href="/"><i class="material-icons">translate</i></a></li>
-      <li><a href="/"><i class="material-icons">vpn_key</i></a></li>
+      <li id="translate"><i class="material-icons">translate</i></li>
+      <li><i class="material-icons">vpn_key</i></li>
     </ul>
 	</div>
 
@@ -94,6 +91,19 @@
       </div>
 <!-- Latest compiled and minified JavaScript for bootstrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!--scrolling nav-->
+      <script type="text/javascript">
+        var main = function() {
+ 
+            // Hook up the current state to the nav bar
+          $('.nav').onePageNav();
+          $('.main-nav').onePageNav();
+          $('.mobile-menu').onePageNav();
+          
+         };
+
+      $(document).ready(main);
+        </script>
  <script type="text/javascript">
       var main = function() {
         $('#section0').mouseenter(function(){
