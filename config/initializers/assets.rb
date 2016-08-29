@@ -6,6 +6,7 @@ Rails.application.config.assets.precompile += %w( jquery.fullPage.min.js )
 Rails.application.config.assets.precompile += %w( jquery.fullPage.css )
 Rails.application.config.assets.precompile += %w( examples.css )
 Rails.application.config.assets.precompile += %w( examples.js )
+Rails.application.config.assets.precompile += %w( jquery.slimscroll.js ) 
 
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
