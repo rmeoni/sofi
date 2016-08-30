@@ -9,6 +9,8 @@ gem 'yaml_db'
 gem 'puma'
 #debise
 gem 'devise'
+#newrelic
+gem 'newrelic_rpm'
 
 group :development, :test do
 gem 'foreman'
