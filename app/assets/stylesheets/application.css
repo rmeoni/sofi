@@ -361,11 +361,15 @@
 }
 
 #bs-over #section0 #ipad {
-	margin-top: -20px;
+	padding-top: 80px;
 }
 
 #bs-over #section0 #macbook {
-	margin-top: 80px;
+	padding-top: 80px;
+}
+
+#bs-over #section0 #imac {
+	width: 280px;
 }
 
 #bs-over #section1 .wrap {
