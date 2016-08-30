@@ -280,7 +280,7 @@
 }
 
 #bs-over #section0 h2 {
-	font-size: 0.8em;
+	font-size: 1em;
 	margin-bottom: 0px;
 }
 
@@ -364,6 +364,10 @@
 	margin-top: -20px;
 }
 
+#bs-over #section0 #macbook {
+	margin-top: 80px;
+}
+
 #bs-over #section1 .wrap {
 	-webkit-transform: scale(0.5);
 		transform: scale(0.5);
@@ -429,7 +433,7 @@
 	}
 
 		#section3 form {
-		padding: 20px;
+		padding: 0px 20px 20px 20px;
 	}
 
 }
