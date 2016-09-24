@@ -40,28 +40,29 @@
 
     	<!-- Mobile Menu will only appear in mobile devices -->
 		<ul class="mobile-menu">
-      <li><a href="#section0">About Us</a></li>
-			<li><a href="#section1">Templates</a></li>
-			<li><a href="#section2">Pricing</a></li>
-      <li><a href="#section3">FAQ</a></li>
-			<li><a href="#section3">Contact</a></li>
+      <li><a href="#section0">Hello! Just scroll down :)</a></li>
+			<li><a href="#section1"></a></li>
+			<li><a href="#section2"></a></li>
+      <li><a href="#section3"></a></li>
+			<li><a href="#section3"></a></li>
 		</ul>
 	</div>
+    <!-- desktop nav -->
 	<div class="main-nav">
-		<!--for mobile-->
-	<div class="icon-menu pull-right">
-  		<i class="material-icons">menu</i>
-  	</div>
-    <%= link_to root_path, :data => { :reload => true } do %>
-			<img class="img-responsive" src="/images/logo.png" id="logo" width="38px"/>
-    <% end %>
-		<ul class="nav">
-      <li><a href="#section0">About Us</a></li>
-      <li><a href="#section1">Templates</a></li>
-      <li><a href="#section2">Pricing</a></li>
-      <li><a href="#section3">FAQ</a></li>
-			<li><a href="#section3">Contact</a></li>
-		</ul>
+		<!--for mobile only-->
+	   <div class="icon-menu pull-right">
+  	 	 <i class="material-icons">menu</i>
+  	 </div>
+     <%= link_to root_path, :data => { :reload => true } do %>
+        <img class="img-responsive" src="/images/logo.png" id="logo" width="38px"/>
+        <% end %>
+		  <ul class="nav" id="main-nav">
+        <li><a href="#section0"></a></li>
+        <li><a href="#section1"></a></li>
+        <li><a href="#section2"></a></li>
+        <li><a href="#section3"></a></li>
+			  <li><a href="#section3"></a></li>
+		  </ul>
 
     <ul class="nav pull-right" id="login">
       <li id="translate"><i class="material-icons">translate</i></li>

@@ -34,6 +34,10 @@
 	padding-top: 0px;
 }
 
+#main-nav {
+	text-align: center
+}
+
 #bs-over .nav {
 	list-style-type: none;
 	display: inline-block;
@@ -91,7 +95,7 @@
 	top: -20px;
 }
 #bs-over #logo {
-	margin-left: 115px;
+	margin-left: 45px;
 	margin-top: 5px;
 }
 
