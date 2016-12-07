@@ -121,6 +121,7 @@
   padding-bottom: 6px;
   padding-top: 6px;
   text-align: center;
+  color: #fff;
 
 }
 
@@ -140,6 +141,7 @@
 	color:#888;
 	background-color: #000;
 }
+
 
 .icon-close {
   cursor: pointer;
