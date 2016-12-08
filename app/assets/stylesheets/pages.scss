@@ -205,10 +205,19 @@
 	padding: 20px 20px 20px 0px;
 }
 
+#bs-over #section2 h3 {
+	background-color: #000;
+		padding: 15px;
+		color: #fff;
+		text-transform: uppercase;
+		margin-top: 50px;
+		margin-bottom: 75px;
+		transition: background-color .3s;
+}
 
-
-
-
+#bs-over #section2 h3:hover {
+	background-color: #FF1160;
+}
 
 
 	/* Section 3
@@ -282,4 +291,43 @@
 	}
 	#fp-nav li .active span, .fp-slidesNav .active span{
 		background: #AAA;
+	}
+
+	/* estimate */
+	.estimate {
+		min-height: 400px;
+	}
+
+	.estimate #back {
+		background-color: #333;
+		color: #fff;
+		border-radius: 50%;
+		border-color: #FF1160;
+		font-size: 38px;
+		margin-top: 20px;
+		margin-left: 20px;
+		position: fixed;
+	}
+	.estimate .jumbotron {
+		background-image: url("/images/vintage.jpg");
+		height: 400px;
+		background-attachment: fixed;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.estimate h1 {
+		color: #fff;
+		text-shadow: 0px 1px 2px #000;
+		text-transform: uppercase;
+		text-align: center;
+		padding-top: 175px;
+		font-size: 5em;
+	}
+
+	@media only screen and (max-width:768px) {
+		.estimate h1 {
+			font-size: 2em;
+		}
 	}

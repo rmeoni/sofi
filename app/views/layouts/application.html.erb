@@ -36,7 +36,7 @@
 	<!-- Mobile Menu CLose icon (will only appear in mobile devices-->
 	<div class="menu">
 		<div class="icon-close">
-			<i class="material-icons">close</i><img src="/images/horizontal.png" width="200px">
+			<i class="material-icons">&#xE5CD;</i><img src="/images/horizontal.png" width="200px">
 		</div>
 
     	<!-- Mobile Menu will only appear in mobile devices -->
@@ -52,7 +52,7 @@
 	<div class="main-nav">
 		<!--for mobile only-->
 	   <div class="icon-menu pull-right">
-  	 	 <i class="material-icons">menu</i>
+  	 	 <i class="material-icons">&#xE5D2;</i>
   	 </div>
      <%= link_to root_path, :data => { :reload => true } do %>
         <img class="img-responsive" src="/images/logo.png" id="logo" width="38px"/>
@@ -70,6 +70,12 @@
       <li><i class="material-icons">vpn_key</i></li>
     </ul>
 	</div>
+  <!--email icon-->
+    <div class="email-button">
+      <div class="container">
+      <i class="material-icons md-36">&#xE8AF;</i>
+      </div>
+    </div>
 
 <%= yield %>
 
@@ -142,18 +148,4 @@
 
       $(document).ready(main);
     </script>
-     <!--scrolling nav-->
-      <script type="text/javascript">
-        var main = function() {
- 
-            // Hook up the current state to the nav bar
-          $('.nav').onePageNav();
-          $('.main-nav').onePageNav();
-          $('.mobile-menu').onePageNav();
-          
-         };
-
-      $(document).ready(main);
-        </script>
-</body>
 </html>
